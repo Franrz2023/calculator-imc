@@ -1,0 +1,51 @@
+
+/* .row{
+
+    border: 2px solid black;
+}
+.col{
+    border: 2px solid rgb(192, 141, 23);
+}
+.container{ 
+       border: 2px solid rgb(186, 69, 69);
+} */
+#contFixded{
+    overflow: hidden;
+    z-index: 3;
+    width: 400px;    
+}
+#indicator1{
+    width: 40px;
+    height: 30px;
+    border-radius: 12px 0 0 12px;
+    background-color: rgb(48, 173, 240);
+}
+#indicator2{
+    width: 40px;
+    height: 30px;
+    background-color: rgb(34, 160, 74);
+}
+#indicator3{
+    width: 40px;
+    height: 30px;
+    background-color: rgb(240, 163, 48);
+}
+#indicator4{
+    border-radius: 0  12px 12px 0;
+    background-color: rgb(236, 97, 10);
+}
+#circle{
+    position: fixed;
+    background-color: rgb(234, 255, 0);    
+    width: 2px ;
+    height: 25px;
+    border: 2px solid rgb(67, 67, 67);
+    z-index: 1;
+    border-radius: 100px;
+    transform: translateX(0px); 
+}
+.hidden{
+    display: none;
+}
+
+/* cada indicador ancho 40 y el maximo de resultado es 18.4 */
