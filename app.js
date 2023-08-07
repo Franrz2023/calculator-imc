@@ -36,10 +36,10 @@ btnCalcular.addEventListener('click', function () {
 function calculateIMC() {
   let altura = document.getElementById('alturaCm').value;
   kg = document.getElementById('inputkg').value;
-  if(altura >= 1 && kg >=  1){
+  if(altura >= 1 && kg >=  1 &&  altura <= 290 && kg <=  500){
     alturaEnCm = altura / 100;
     calculo = kg / (alturaEnCm * alturaEnCm)
-    console.log('altura :', alturaEnCm, 'peso :', kg, 'total :', calculo)
+    console.log('altura :', alturaEnCm, 'peso :', kg, 'total :',calculo)
 
   }else{
     alert('REVISE VALORES')
